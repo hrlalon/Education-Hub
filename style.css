@@ -9,3 +9,13 @@
 .e-learning-section {
     margin-top: 80px;
 }
+
+.ready-to-join-section {
+    height: 300px;
+    background-color: #289BDE;
+    margin-top: 100px;
+}
+
+.btn-txt-color {
+    color: #289BDE;
+}
