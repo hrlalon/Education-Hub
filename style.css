@@ -24,11 +24,28 @@
     margin-top: 100px;
 }
 
-.student-feedback-sec {
+/* sections gap */
+.student-feedback-sec,
+.freq-asked-que-sec,
+.trusted-companies-sec {
     margin-top: 100px;
+}
+
+.footer-section {
+    height: 400px;
 }
 
 .btn-space {
     padding: 13px 35px;
     font-size: 20px;
+}
+
+.privacy-policy li::after {
+    content: " | ";
+    color: #ffffff;
+    margin: 0 5px 0 5px;
+}
+
+.privacy-policy li:last-child::after {
+    display: none;
 }
